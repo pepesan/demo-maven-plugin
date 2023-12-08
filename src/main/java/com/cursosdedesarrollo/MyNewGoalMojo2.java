@@ -5,11 +5,11 @@ import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugin.MojoFailureException;
 import org.apache.maven.plugins.annotations.Mojo;
 
-@Mojo(name = "demo")
+@Mojo(name = "demo2")
 public class MyNewGoalMojo2 extends AbstractMojo {
 
     @Override
     public void execute() throws MojoExecutionException, MojoFailureException {
-        getLog().info("Ejecutado: MyNewGoalMojo");
+        getLog().info("Ejecutado: MyNewGoalMojo2");
     }
 }
